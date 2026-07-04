@@ -26,7 +26,7 @@ const router = createRouter({
       { path: '/shezhi/zhanghao', component: () => import('../shezhizizujian/zhanghao.vue') },
       { path: '/shezhi/zhanghao/gerenziliao', component: () => import('../shezhizizujian/zhanghaozizujian/gerenziliao.vue') },
       { path: '/shezhi/zhanghao/xiugaimima', component: () => import('../shezhizizujian/zhanghaozizujian/xiugaimima.vue') },
-      { path: '/shezhi/zhanghao/qiehuanzhanghao', component: () => import('../shezhizizujian/zhanghaozizujian/qiehuanzhanghao.vue') },
+      
       { path: '/shezhi/zhanghao/tuichudenglu', component: () => import('../shezhizizujian/zhanghaozizujian/tuichudenglu.vue') },
       { path: '/shezhi/zhuti', component: () => import('../shezhizizujian/tongyong.vue') },
       { path: '/shezhi/beifen', component: () => import('../shezhizizujian/tongyong.vue') },
