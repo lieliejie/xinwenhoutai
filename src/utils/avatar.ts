@@ -1,7 +1,7 @@
 // ========== 后台管理系统静态资源统一工具 ==========
-// 本地默认头像（Vite 构建时打包进产物）
-// 请确保 xinwenhoutai/src/uploads/默认.png 存在
-import defaultAvatar from '../uploads/默认.png'
+// 本地默认头像：直接使用 public 下的相对根路径，避免打包/解析问题
+// 请确保 `xinwenhoutai/public/uploads/default.png` 或 `xinwenhoutai/uploads/default.png` 存在
+const defaultAvatar = '/uploads/default.png'
 
 /** 后端静态资源域名 + /uploads/，通过 .env.development / .env.production 区分环境 */
 const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || 'http://localhost:3000'
